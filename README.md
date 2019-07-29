@@ -11,3 +11,4 @@ After searching the whole github after a effective linux keylogger I've decided 
 - [ ] Compile keylogger with pyinstaller
 - [ ] on startup
 - [ ] cant be killed by other users/subprocess hiding
+- [ ] send via email overtime 
