@@ -4,6 +4,7 @@ After searching the whole github after a effective linux keylogger I've decided 
 
 # TODO
 
+- [ ] Adds key combo to most basic keyboard functions !@#$%&*()_+{}´`~~:; ? >< |\ CAPSLOCK
 - [ ] send to server
 - [ ] log to HD
 - [ ] start/stop process
