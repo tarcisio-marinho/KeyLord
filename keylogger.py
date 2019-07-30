@@ -1,7 +1,7 @@
 from pynput import keyboard
 import pynput
 from sys import argv
-from time import gmtime, strftime
+import datetime
 # https://github.com/moses-palmer/pynput/issues/20
 
 
@@ -14,7 +14,7 @@ class logger:
         self.__listener = None
 
     def __print_formated(self):
-        exact_time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        exact_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         print(exact_time + " " + ''.join(self.__buffer))
         self.__buffer = []
 
@@ -53,7 +53,8 @@ class logger:
 
 
 def Parser(args):
-    if(args.)
+    #if(args.)
+    pass
 
 if __name__ == "__main__":
     l = logger()
